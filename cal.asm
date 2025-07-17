@@ -92,7 +92,7 @@ idivop:
 
 
                    mov rax, [num1]
-                   cqo
+                   
                    mov rbx, [num2]
                    idiv rbx
                    mov rdi, prompt4
